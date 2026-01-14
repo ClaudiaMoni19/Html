@@ -47,7 +47,26 @@
                 <img src="imagen/copilot.webp" alt="Copilot" height="100px" width="200px" title="Copilot">
             </article>
         </section>
-        <section></section>
+        <section>
+            <h1>Deja tu valoracion</h1>
+            <form action="submit" method="post">
+                <br>Nombre: <input type="text" name="Nombre" placeholder="Escribe tu nombre"></br>
+                <br>Correo electronico: <input type="email" name="Correo" placeholder="ejemplo@gmail.com"></br>
+                <br>Que IA quieres valorar? <select name="IA">
+                    <option value="Gemini">Gemini</option>
+                    <option value="ChatGpt">ChatGpt</option>
+                    <option value="Copilot">Copilot</option> </br>
+                </select>
+                    <br><br>Como valoras esta IA? </br>
+                    <input type="radio" name="opcion" value="opcion1"> Excelente
+                    <input type="radio" name="opcion" value="opcion1"> Buena
+                    <input type="radio" name="opcion" value="opcion1"> Mejorable </br>
+                    <br>Comentario:</br><br><textarea name="mensaje" rows="4" cols="40">Escribe tus comentarios</textarea></br>
+                    <br><input type="checkbox" name="opciones" value="opcion1"> Quiero recibir novedades sobre IA</br>
+                    <br><input type="button" value="Enviar"></br>
+                </select>
+            </form>
+        </section>
     </main>
     <footer></footer>
 </body>
