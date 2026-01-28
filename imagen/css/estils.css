@@ -4,6 +4,20 @@ body {
 ul {
     list-style-type: none;
 }
-a {
+li a {
     color: #ccc;
+}
+.parrafo1::first-letter {
+    font-size: 32px;
+}
+.Fuente:hover {
+    color: orange;
+    text-decoration: overline;
+}
+.Fuente {
+    color: green;
+    text-decoration: overline;
+}
+.Fuente:visited {
+    color: pink;
 }
