@@ -21,3 +21,7 @@ li a {
 .Fuente:visited {
     color: pink;
 }
+h1 {
+    text-transform: capitalize;
+    font-size: 30px;
+}
